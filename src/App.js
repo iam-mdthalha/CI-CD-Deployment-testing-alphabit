@@ -67,7 +67,7 @@ const App = () => {
         `}
       </style>
       <div style={styles.logo}>💎</div>
-      <h1 style={styles.title}>AlphaBit</h1>
+      <h1 style={styles.title}>Alphabit Technologies IND</h1>
       <p style={styles.subtitle}>Next-Gen Digital Solutions</p>
       <div style={styles.status}>
         <div style={styles.dot}></div>
