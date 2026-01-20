@@ -87,6 +87,6 @@ jobs:
           echo "  🌐 URL: http://${{ secrets.SERVER_IP }}:4080"
           echo ""
           echo "  🔄 Rollback command:"
-          echo "     ssh deploy@${{ secrets.SERVER_IP }} '/home/deploy/scripts/rollback-bg.sh alphabit'"
+          echo "     ssh deploy@${{ secrets.SERVER_IP }} '/home/alphabit/scripts/rollback-bg.sh alphabit'"
           echo ""
           echo "=============================================="
