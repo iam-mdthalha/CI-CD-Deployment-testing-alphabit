@@ -1,6 +1,7 @@
 {
   "name": "alphabit",
   "version": "1.0.0",
+  "homepage": "/alphabit",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
