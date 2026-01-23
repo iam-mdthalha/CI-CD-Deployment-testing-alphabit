@@ -3,6 +3,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm ci
 COPY . . 
+ENV PUBLIC_URL=/alphabit
 RUN npm run build
 
 FROM nginx:stable-alpine
